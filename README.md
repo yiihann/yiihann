@@ -15,31 +15,37 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-Applied **Data Scientist & AI Engineer** building end-to-end analytics and ML-driven decision-support systems.  
-I focus on turning **ambiguous business and operational problems** into **scalable, executable data products** - from data pipelines and optimization models to LLM-powered agents deployed in real production environments.
+Applied **Data Scientist & AI Engineer** building end-to-end analytics and ML-driven decision-support systems.
+
+I specialize in transforming **ambiguous business and operational problems** into **scalable, executable data products** - spanning data pipelines, optimization models, and LLM-powered agents deployed in real-world production environments.
 
 Currently at **McKinsey & Company**, working on analytics products for workforce planning and talent intelligence.
 
 ## 🔍 Featured Projects
 
-### 🧠 Full-Stack AI Agent
-**LLM-powered analytics agent** that translates natural language questions into executable SQL and analytical workflows.  
-Designed for decision-support use cases where stakeholders need fast, interpretable insights without manual querying, with guardrails for schema awareness and result validation.
+### 🧠 Full-Stack Agentic AI System for API Integration
+An **agentic AI system** that guides developers from high-level intent to **production-ready full-stack code**, orchestrating API recommendation, documentation retrieval, and code generation through a multi-agent workflow.
 
-> Tech: Python, SQL, LLM agents, RAG, analytics pipelines  
+The system decomposes the development process into specialized agents for **API selection**, **documentation scraping and retrieval-augmented generation (RAG)**, **backend/frontend code synthesis**, and **automated code review**, enabling fast and reliable API integration, reducing integration time from documentation exploration to deployable code.
+
+> Tech: Python, LLM agents (AutoGen-style), RAG (Faiss), Selenium, BeautifulSoup, Flask/FastAPI  
 🔗 Repo: [`full-stack-ai-agent`](https://github.com/yiihann/full-stack-ai-agent)
 
-### 🏠 California Housing Optimization
-A **machine learning + optimization** project for housing decision-making, framing housing selection as a multi-objective optimization problem over affordability, safety, and accessibility.
+### 🏠 California Housing Affordability Optimization
+An **ML- and optimization-driven decision-support system** for housing affordability in California, framing housing selection as a **multi-objective optimization problem** over affordability, safety, and accessibility rather than a traditional recommender system.
 
-> Tech: ML, optimization, statistical modeling  
-🔗 Repo: [`cal-housing-recommendation`  ](https://github.com/yiihann/cal-housing-recommendation)
-*(Note: project scope and framing evolving)*
+The project combines **predictive modeling** (Random Forest, Gradient Boosting) with **constraint-based optimization** (MILP and heuristic methods) to maximize Quality of Life (QoL) under real-world affordability and policy constraints, enabling **scenario analysis for individual and policy-level evaluation**.
+
+> Tech: Python, ML (RF, GBM), optimization (MILP, Simulated Annealing), statistical modeling  
+🔗 Repo: [`cal-housing-optimization`](https://github.com/yiihann/cal-housing-optimization)
+*(Note: project framing evolving)*
 
 ### 📈 FX Analytics Dashboard
-Interactive dashboard for **financial time-series analysis and monitoring**, designed to support exploratory analysis and scenario evaluation.
+An **interactive analytics and forecasting dashboard** for global FX markets, combining time-series analysis with **LSTM-based return forecasting** to support exploratory analysis and short-horizon decision-oriented scenario evaluation.
 
-> Tech: Python, Jupyter, data visualization, statistical analysis  
+The system enables users to **analyze historical return dynamics**, evaluate model performance on held-out periods, and **simulate future FX return trajectories** across major currencies, providing a practical framework for decision-oriented financial analysis.
+
+> Tech: Python, LSTM, time-series modeling, Streamlit   
 🔗 Repo: [`fx-dashboard`](https://github.com/yiihann/fx-dashboard)
 
 ### 🧩 Upcoming Projects
