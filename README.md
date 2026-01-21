@@ -62,5 +62,4 @@ The system enables users to **analyze historical return dynamics**, evaluate mod
 ## 📫 Connect
 
 - 💼 LinkedIn: https://www.linkedin.com/in/yihan-zhou-zoe020427  
-- 📄 Resume: [PDF Preview](https://drive.google.com/file/d/1tzlPmYtwGdemLqh4CVIMU4wygf9Bv9J3/view?usp=drive_link)
 - 🌐 Personal website: https://yiihann.github.io/ 
