@@ -31,14 +31,14 @@ The system decomposes the development process into specialized agents for **API 
 > Tech: Python, LLM agents (AutoGen-style), RAG (Faiss), Selenium, BeautifulSoup, Flask/FastAPI  
 🔗 Repo: [`full-stack-ai-agent`](https://github.com/yiihann/full-stack-ai-agent)
 
-### 🏠 California Housing Affordability Optimization
-An **ML- and optimization-driven decision-support system** for housing affordability in California, framing housing selection as a **multi-objective optimization problem** over affordability, safety, and accessibility rather than a traditional recommender system.
+### 📊 Demand–Staffing Optimizer
 
-The project combines **predictive modeling** (Random Forest, Gradient Boosting) with **constraint-based optimization** (MILP and heuristic methods) to maximize Quality of Life (QoL) under real-world affordability and policy constraints, enabling **scenario analysis for individual and policy-level evaluation**.
+A **demand forecasting and dynamic staffing optimization** pipeline for capacity planning, combining **time-series forecasting** (7-day moving average + Prophet) with a **Genetic Algorithm (GA)** to produce hire/fire decisions that maximize net profit under real-world constraints.
 
-> Tech: Python, ML (RF, GBM), optimization (MILP, Simulated Annealing), statistical modeling  
-🔗 Repo: [`cal-housing-optimization`](https://github.com/yiihann/cal-housing-optimization)
-*(Note: project framing evolving)*
+The system guides the process from raw event data through **aggregation and MA7 smoothing**, **Prophet-based demand forecasts** (with optional per-region calibration and grid search), and **GA-driven staffing plans** that balance revenue, salary, hiring/firing costs, and lost revenue from unmet demand—enabling scenario-based capacity planning with a 60-day backlog and 1-month agent ramp.
+
+> Tech: Python, Prophet, time-series (MA7), Genetic Algorithm, optimization  
+> 🔗 Repo: [`demand-staffing-optimizer`](https://github.com/yiihann/demand-staffing-optimizer)
 
 ### 📈 FX Analytics Dashboard
 An **interactive analytics and forecasting dashboard** for global FX markets, combining time-series analysis with **LSTM-based return forecasting** to support exploratory analysis and short-horizon decision-oriented scenario evaluation.
@@ -48,9 +48,17 @@ The system enables users to **analyze historical return dynamics**, evaluate mod
 > Tech: Python, LSTM, time-series modeling, Streamlit   
 🔗 Repo: [`fx-dashboard`](https://github.com/yiihann/fx-dashboard)
 
+### 🏠 California Housing Affordability Optimization
+An **ML- and optimization-driven decision-support system** for housing affordability in California, framing housing selection as a **multi-objective optimization problem** over affordability, safety, and accessibility rather than a traditional recommender system.
+
+The project combines **predictive modeling** (Random Forest, Gradient Boosting) with **constraint-based optimization** (MILP and heuristic methods) to maximize Quality of Life (QoL) under real-world affordability and policy constraints, enabling **scenario analysis for individual and policy-level evaluation**.
+
+> Tech: Python, ML (RF, GBM), optimization (MILP, Simulated Annealing), statistical modeling  
+🔗 Repo: [`cal-housing-optimization`](https://github.com/yiihann/cal-housing-optimization)
+*(Note: project framing evolving)*
+
 ### 🧩 Upcoming Projects
 - **PeopleDaily-LLM-Analysis**: LLM-based analysis of urban housing pain points and public discourse  
-- **Google Case Competition (Optimization)**: Applied optimization and decision modeling for real-world constraints
 
 ## 🧠 Background & Interests
 
