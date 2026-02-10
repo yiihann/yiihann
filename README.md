@@ -19,7 +19,7 @@ Applied **Data Scientist & AI Engineer** building end-to-end analytics and ML-dr
 
 I specialize in transforming **ambiguous business and operational problems** into **scalable, executable data products** - spanning data pipelines, optimization models, and LLM-powered agents deployed in real-world production environments.
 
-Currently at **McKinsey & Company**, working on analytics products for workforce planning and talent intelligence.
+Currently at **McKinsey & Company**, working on AI analytics products for workforce planning and talent intelligence.
 
 ## 🔍 Featured Projects
 
